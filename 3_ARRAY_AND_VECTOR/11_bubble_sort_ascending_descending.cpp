@@ -8,19 +8,29 @@ void swap(int *a , int *b){
 }
 void Bubble_sorting_incresing(int arr[] , int size){
     for(int i = size-2;i>=0 ;i--){
+        bool swapping = 0 ;
         for(int j = 0 ;j<=i ;j++){
             if(arr[j] > arr[j+1]){
                 swap(&arr[j] , &arr[j+1]);
+                swapping = 1;
             }
+        }
+        if(swapping == 0){
+            break;
         }
     }
 }
 void Bubble_sorting_decreaing(int arr[] ,  int size){
     for(int i = size-2 ;i>=0 ;i--){
+        bool swapping = 0 ;
         for(int j = 0;j<=i ;j++){
             if(arr[j] < arr[j+1]){
                 swap(&arr[j] , &arr[j+1]);
+                swapping = 1;
             }
+        }
+        if(swapping == 0){
+            break;
         }
     }
 }

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/workspaces/DSA-code/1_ARRAY_AND_VECTOR",
-      "program": "/workspaces/DSA-code/1_ARRAY_AND_VECTOR/build/Debug/outDebug",
+      "cwd": "/workspaces/DSA-code/3_ARRAY_AND_VECTOR",
+      "program": "/workspaces/DSA-code/3_ARRAY_AND_VECTOR/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

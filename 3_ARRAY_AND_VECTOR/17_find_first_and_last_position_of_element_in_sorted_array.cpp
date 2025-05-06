@@ -10,7 +10,7 @@ void selection_sort(int arr[] , int size){
         }
         swap(arr[i] , arr[index]);
     }
-}
+} 
 
 void biarysearch_first_second(int arr[], int size , int target){
     int first = -1;

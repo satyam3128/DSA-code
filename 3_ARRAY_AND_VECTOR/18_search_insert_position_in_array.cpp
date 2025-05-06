@@ -18,7 +18,7 @@ int search_insert_index(int arr[] , int size , int target){
     int end = size-1;
     int mid , index = size;
     while(start<=end){
-        mid = (end + start)/2;
+        mid = start + (end - start)/2;
         if(arr[mid] == target){
             index = mid;
             break;

@@ -1,13 +1,14 @@
 #include<iostream>
 using namespace std;
+
 int square_root_using_binary_search(int num){
+    if(num <2){
+        return num;
+    }
     int start = 0;
     int end = num;
     int mid ,  root = -1;
-    if(num < 0){
-        cout<<" Root of Negative number can not be calculate";
-        return 0;
-    }
+    
     while(start<=end){
     mid = start + (end - start)/2;
         if(mid  == num/mid){
@@ -25,7 +26,7 @@ int square_root_using_binary_search(int num){
     return root;
 }
 int main(){
-
+    cout<<"\nEnter the Positive number:--\n";
     int n;
     cout<<"Enter the Number:";
     cin>>n;

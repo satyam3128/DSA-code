@@ -15,3 +15,14 @@ Each problem includes:
 - 💡 Approach and logic
 - 🔍 Time and space complexity
 - 🧠 Learnings and notes (if any)
+
+
+## 💬 Let's Connect
+
+If you're on a similar journey or want to collaborate, feel free to connect!  
+🔗 [LinkedIn](https://www.linkedin.com/in/satyam-suman-73a8962a7/)  
+💻 [My GitHub Profile](https://github.com/satyam3128)  
+
+---
+
+Thanks for visiting! ⭐ Feel free to fork, clone, or contribute!

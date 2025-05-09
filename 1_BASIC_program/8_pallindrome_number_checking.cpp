@@ -7,7 +7,10 @@ int pallindrome_number_checking(int num){
         rem = orig %10;
         orig = orig /10;
         ans = ans*10 + rem;
+<<<<<<< HEAD
 
+=======
+>>>>>>> a4e5471 (commit pallindrome number checking)
     }
     if(ans == num){
         return 1;
@@ -18,7 +21,13 @@ int main(){
     int n;
     cout<<"Enter the Number:";
     cin>>n;
+<<<<<<< HEAD
     cout<<"Is "<<n<<" a Pallindrome Number : "<<pallindrome_number_checking(n);
 
+=======
+    
+    cout<<"Is "<<n<<" a Pallindrome Number : "<<pallindrome_number_checking(n);
+ 
+>>>>>>> a4e5471 (commit pallindrome number checking)
     return 0;
 }

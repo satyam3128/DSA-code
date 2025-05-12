@@ -1,25 +1,21 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-void odd_even_betweeen_two_number(int a , int b){
-    vector<int>odd;
-    vector<int>even;
+void odd_even_between_two_numbers(int a , int b){
+   
+    cout<<"EVEN NUMBER:";
     for(int i = a+1 ; i < b ;i++){
         if(i%2==0){
-            even.push_back(i);
+            cout<<i<<" ";
         }
-        else{
-            odd.push_back(i);
-        }
-    }
-    cout<<"\nEVEN NUMBER:";
-    for(int j = 0;j != even.size() ;j++){
-        cout<<even[j]<<" ";
     }
     cout<<"\nODD NUMBER:";
-    for(int k = 0;k != odd.size() ; k++){
-        cout<<odd[k]<<" ";
+    for(int j = a+1 ;j<b ;j++){
+        if(j%2 != 0){
+            cout<<j<<" ";
+        }
     }
+    
 }
 int main(){
     int a,b;
@@ -27,7 +23,7 @@ int main(){
     cin>>a;
     cout<<"Enter the Last Number:";
     cin>>b;
-    odd_even_betweeen_two_number(a,b);
+    odd_even_between_two_numbers(a,b);
 
     return 0;
 }

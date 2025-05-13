@@ -1,5 +1,4 @@
 #include<iostream>
-#include<vector>
 using namespace std;
 void odd_even_between_two_numbers(int a , int b){
    

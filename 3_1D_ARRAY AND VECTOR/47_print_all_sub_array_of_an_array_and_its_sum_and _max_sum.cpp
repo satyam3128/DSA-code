@@ -18,12 +18,15 @@ void print_sub_array(vector<int>v){
 }
 void print_sub_array_sum(vector<int>v){
     int n = v.size();
+    int maximum = INT16_MIN;
     for(int start = 0;start<n ;start++){
         for(int end = start ; end<n ;end++){
             cout<<"{ ";
             int current_sum = 0;
             for(int i = start ; i<=end ;i++){
                 current_sum +=v[i];
+                maximum = max(maximum , current_sum);
+            
             }
             cout<<current_sum;
             cout<<" }";
@@ -32,6 +35,7 @@ void print_sub_array_sum(vector<int>v){
         }
         cout<<endl;
     }
+    cout<<"\nMAXIMUM SUM OF SUB ARRAY iS: "<<maximum;
 }
 int main(){
     int n ;

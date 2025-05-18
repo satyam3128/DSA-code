@@ -20,7 +20,8 @@ int main(){
         }
         cout<<endl;
     }
-    // Revers of Each row
+
+    // Reverse of Each row
     
     for(int i = 0;i<row ;i++){
     int j = 0;

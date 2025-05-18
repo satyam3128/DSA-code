@@ -31,4 +31,5 @@ int main(){
     
 
     cout<<"maximum sum row's: "<<index <<" is "<<sum;
+    return 0;
 }

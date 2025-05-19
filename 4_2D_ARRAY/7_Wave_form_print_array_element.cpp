@@ -11,7 +11,7 @@ int main(){
     vector<vector<int> >matrix(row,vector<int>(col));
     for(int i = 0;i< col ;i++){
         for(int j = 0;j<row ;j++){
-            cout<<"Enter the "<<i<<" element of Array:";
+            cout<<"Enter the "<<i<<","<<j<<" element of Array:";
             cin>>matrix[i][j];
         }
     }

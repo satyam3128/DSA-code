@@ -3,39 +3,38 @@
 #include <algorithm>
 using namespace std;
 int main(){
-    int n,m;
+    int row,col;
     cout<<"Enter The Row:";
-    cin>>n;
+    cin>>row;
     cout<<"Enter the Column:";
-    cin>>m;
-    vector<vector<int> >matrix(n,vector<int>(m));
-    for(int i = 0;i< n ;i++){
-        for(int j = 0;j<m ;j++){
+    cin>>col;
+    vector<vector<int> >matrix(row,vector<int>(col));
+    for(int i = 0;i< col ;i++){
+        for(int j = 0;j<row ;j++){
             cout<<"Enter the "<<i<<" element of Array:";
             cin>>matrix[i][j];
         }
     }
     cout<<"\n";
 
-    for(int  i = 0 ;i<n ;i++){
-        for(int j = 0;j<m ;j++){
+    for(int  i = 0 ;i<col ;i++){
+        for(int j = 0;j<row;j++){
             cout<<matrix[i][j]<<" ";
         }
         cout<<endl;
     }
 
-    // Wave Form
     cout<<"\nwave Form Printing:-\n";
     
-    for(int i = 0;i< n; i++){
+    for(int i = 0;i< col; i++){
         if(i % 2 != 0){
-            for(int j = m-1 ;j>=0 ;j--){
+            for(int j = row-1 ;j>=0 ;j--){
                 cout<<matrix[j][i]<<" ";
             }
             
         }
         else{
-            for(int j = 0;j<m ;j++){
+            for(int j = 0;j<row ;j++){
                 cout<<matrix[j][i]<<" ";
             }
            

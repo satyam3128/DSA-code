@@ -33,7 +33,7 @@ cout<<"\nArray[]:-\n";
         }
         cout<<endl;
     }
-
+// ADD TWO MATRIX
 cout<<"\nAns[]:-\n";
     for(int i = 0;i<3 ;i++){
         for(int j = 0;j<3 ;j++){
@@ -43,6 +43,16 @@ cout<<"\nAns[]:-\n";
         cout<<endl;
     }
 
+// SUBTRACTION OF TWO MATRIX
+
+cout<<"\nANS[]:-\n";
+    for(int i = 0;i<3 ;i++){
+        for(int j = 0;j<3 ;j++){
+        ans[i][j] = arr1[i][j] - arr2[i][j];
+        cout<<ans[i][j]<<" ";
+        }
+        cout<<endl;
+    }
 
     
 

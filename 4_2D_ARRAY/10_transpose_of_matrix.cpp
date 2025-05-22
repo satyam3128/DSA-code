@@ -32,11 +32,23 @@ int main(){
     //         arr[j][i] = matrix[i][j];
     //     }
     // }
+
     for(int i = 0 ;i<row-1; i++){
         for(int j = i+1;j<col ;j++ ){
             swap(matrix[i][j] , matrix[j][i]);
         }
     }
+
+
+    // for(int i = 0;i< row;i++){
+    //     for(int j = 0;j< col ;j++){
+    //         if(i< j ){
+    //             swap(matrix[i][j] , matrix[j][i]);
+    //         }
+
+    //     }
+    // }
+
     cout<<"\nTranspsose of matrix[]\n";
     for(int i = 0;i<row ;i++){
         for(int j = 0 ;j<col ;j++){

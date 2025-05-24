@@ -16,7 +16,7 @@ bool binary_search(vector<vector<int>>&matrix , int target){
                 if(matrix[i][mid] == target){
                     return 1;
                 }
-                else if(matrix[i][mid] < matrix[i][mid]){
+                else if(matrix[i][mid] < target){
                     end = mid -1;
                 }
                 else{

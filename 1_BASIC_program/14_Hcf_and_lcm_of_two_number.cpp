@@ -12,15 +12,20 @@ int hcf(int a , int b){
     }
     return HCF;
 }
+int lcm(int a , int b){
+    return (a*b)/hcf(a,b);
+}
 int main(){
     int a ;
     cout<<"Enter first number:";
     cin>>a;
     int b ;
-    cout<<"\nEnter first number:";
+    cout<<"\nEnter second number:";
     cin>>b;
     cout<<"\nHCF is:";
     cout<<hcf(a,b);
+    cout<<"\nLCM is:";
+    cout<<lcm(a,b);
 
     return 0;
 }

@@ -27,8 +27,6 @@ int Roman_to_int(string &s){
 }
 int main(){
 
-    // Range of roman must be 1 to 3999;
-
     string rom;
     cout<<"Enter the Roman Numner:";
     cin>>rom;

@@ -5,12 +5,17 @@ using namespace std;
 vector<int>factorial(int n ){
     vector<int>ans(1,1);
     while(n>1){
-        int carry = 0 ;
+
+        int carry = 0;
+
         int size = ans.size();
+
         int res;
         for(int i = 0;i<size ;i++){
             res = ans[i] * n + carry ;
+            // calculate the carry :
             carry = res /10;
+            
             ans[i] = res%10;
 
         }

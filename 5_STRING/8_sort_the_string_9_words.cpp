@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+
 string sentence_form(string &sen){
     vector<string>ans(10);
     int count = 0;

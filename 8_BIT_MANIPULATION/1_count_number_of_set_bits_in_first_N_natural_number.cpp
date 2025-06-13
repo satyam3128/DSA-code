@@ -26,7 +26,7 @@ int main()
     {
         count_one = count_one + count_set_bit(i);
     }
-    cout<<"Set Bit :"<<count_one;
+    cout<<"Set Bits Cout:"<<count_one;
 
     return 0;
 }

@@ -7,6 +7,7 @@ void display(vector<int>&v){
     }
 }
 int main(){
+
     int n1,n2;
     cout<<"Enter size of First Array:";
     cin>>n1;
@@ -74,7 +75,7 @@ int main(){
     }
 
 
-    cout<<"\nMerge Sorted Array[]:";
+    cout<<"\nMerged Sorted Array[]:";
     display(ans);
 
 

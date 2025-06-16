@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/1.GIT HUB/DSA-code",
-      "program": "d:/1.GIT HUB/DSA-code/build/Debug/outDebug",
+      "cwd": "d:/1.GIT HUB/DSA-code/8_RECURSION",
+      "program": "d:/1.GIT HUB/DSA-code/8_RECURSION/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

@@ -17,6 +17,31 @@ int maze_path(int start_row , int start_col ,  int end_row , int end_col){
 
     return rightways + downways;
 }
+
+
+
+// printing all possible path
+void print_path(int start_row , int start_col ,  int end_row , int end_col , string ans){
+    if(start_row > end_row  || start_col >end_col) return ;
+
+    // destination reached
+    if(start_row == end_row && start_col == end_col) {
+        cout<<ans<<endl;
+        return;
+    }
+
+    // right side
+    print_path(start_row , start_col+1 ,end_row ,end_col , ans +'R');
+
+    // down side
+
+     print_path(start_row +1 , start_col ,end_row,end_col , ans + 'D');
+
+    
+}
+
+
+
 int main(){
 
     int start_row;
@@ -33,7 +58,13 @@ int main(){
     cout<<"Enter final Destination col:";
     cin>>final_col;
 
-    cout<<"TOTAL WAYS :"<<maze_path(start_row , start_col,final_row,final_col);
+    cout<<"TOTAL WAYS :"<<maze_path(start_row , start_col,final_row,final_col );
+
+    cout<<endl;
+
+    string ans;
+    cout<<"Possible Direction:\n";
+    print_path(start_row , start_col,final_row,final_col,ans);
 
     return 0;
 }

@@ -2,6 +2,7 @@
 using namespace std;
 int GCD(int a , int b){
     if(b==0) return a;
+    // reccursive call of a and b when b == 0 then at that time value of a is HCF
     return GCD(b,a%b);
 }
 int main(){

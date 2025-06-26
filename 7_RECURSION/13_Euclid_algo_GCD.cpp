@@ -6,10 +6,15 @@ int GCD(int a , int b){
     return GCD(b,a%b);
 }
 int main(){
+
     int a , b;
+
     cout<<"Enter the first number:";
+
     cin>>a;
+
     cout<<"Enter the Second number:";
+    
     cin>>b;
     cout<<"HCF: "<<GCD(a,b);
 

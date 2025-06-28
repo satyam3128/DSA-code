@@ -12,6 +12,7 @@ int main(){
     int n ;
     cout<<"Enter the size of Array:";
     cin>>n;
+    
     for(int i = 0;i<n;i++){
         cout<<"Enter "<<i<<" elemnt: ";
         cin>>arr[i];

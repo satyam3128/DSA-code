@@ -7,6 +7,7 @@ void print(int arr[], int index , int n){
     cout<<arr[index]<<" ";
     print(arr,index+1,n);
 }
+
 int main(){
     
     int arr[100];

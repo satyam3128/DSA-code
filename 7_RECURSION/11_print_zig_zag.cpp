@@ -3,7 +3,7 @@
 // 2         211121112
 // 3         321112111232111211123
 // 4         432111211123211121112343211121112321112111234
-// by using the recursion it can easily print 
+// BY using the recursion it can Easily Print 
 
 #include<iostream>
 using namespace std;

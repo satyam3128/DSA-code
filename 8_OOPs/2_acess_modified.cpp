@@ -9,11 +9,19 @@ class student{
     string grade;
 
     public:
-    // Function getter setter
+    // Function getter  or setter
     void setname(string n){
+        if(n.size()==0){
+            cout<<"Invalid Age"<<endl;
+            return;
+        }
     name =n;
     }
     void setage(int num){
+        if(num<=0){
+            cout<<"Invalid age";
+            return;
+        }
         age = num;
     }
     void setroll(int r){
@@ -23,12 +31,24 @@ class student{
         grade = g;
     }
 
-    void display(){
+    void getname(){
         cout<<name<<endl;
-        cout<<age<<endl;
-        cout<<roll<<endl;
-        cout<<grade<<endl;
     }
+    void getage(){
+        cout<<age<<endl;
+    }
+    void getgrade(int pin){
+        if(pin == 123){
+            cout<<grade<<endl;
+        }
+        else{
+            cout<<"Give the correct pin";
+        }
+    }
+    void getroll(){
+        cout<<roll<<endl;
+    }
+    
 
     
     
@@ -40,7 +60,12 @@ int main(){
     s1.setage(33);
     s1.setgrade("A");
     s1.setroll(3);
-    s1.display();
+
+    s1.getname();
+    s1.getroll();
+    s1.getage();
+    s1.getgrade(12);
+    
 
 
     return 0;

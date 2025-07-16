@@ -14,6 +14,13 @@ class customer{
         account_number = 4;
         balance = 111;
     }
+    // pramaterised constructor
+    customer(string a, int b ,  int c){
+        name = a ;
+        account_number = b;
+        balance = c;
+
+    }
     void display(){
         cout<<name<<" "<<account_number<<" "<<balance<<endl;
     }
@@ -21,9 +28,13 @@ class customer{
 };
 int main(){
 
-    customer a1,a2;
+    customer a1;
+    customer a2("satyam",12,100);
+
     a1.display();
     a2.display();
+
+    
     
     
 

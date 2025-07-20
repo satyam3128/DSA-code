@@ -7,7 +7,7 @@ int main(){
     fout.open("zoom.txt");
 
     // write
-    fout<<"Hello India";
+    fout<<"Hello India \nI Love My India";
 
     fout.close();
     return 0;

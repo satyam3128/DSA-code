@@ -27,8 +27,8 @@ int main(){
     cout<<*ptr1<<endl;
     delete ptr1;
     delete ptr;
-    delete []p1;
-    delete []p2;
+    delete[] p1;
+    delete[] p2;
 
 
     return 0;
